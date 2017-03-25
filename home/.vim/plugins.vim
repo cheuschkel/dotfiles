@@ -109,12 +109,6 @@ Plug 'kergoth/vim-bitbake'
 Plug 'rust-lang/rust.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'tfnico/vim-gradle'
-Plug 'Valloric/YouCompleteMe', "{{{
-  \ { 'do': './install.py --clang-completer --racer-completer' }
-  let g:ycm_rust_src_path = $RUST_SRC_PATH
-  let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-  let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-"}}}
 Plug 'vim-scripts/ebnf.vim'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'vim-scripts/scons.vim' "{{{
