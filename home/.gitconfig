@@ -1,6 +1,6 @@
 [user]
-	name = Nick Stevens
-	email = nick@bitcurry.com
+	name = Cory Heuschkel
+	email = cory.heuschkel@smartthings.com
 	signingkey = A99F105839A36BC5
 [includeIf "gitdir:~/projects/"]
 	path = .gitconfig-work
