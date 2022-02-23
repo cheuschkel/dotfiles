@@ -75,6 +75,9 @@ path=(
     # pyenv binaries
     "$HOME/.pyenv/bin"
 
+    # CLion binaries
+    "$HOME/tools/clion-2021.3.3/bin"
+
     # Include system paths
     $path
 )
@@ -155,3 +158,4 @@ export TELEPORT_LOGIN=ubuntu
 
 # Uncomment with first line to profile startup
 # zprof
+export GPG_TTY=$(tty)
