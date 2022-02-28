@@ -1,7 +1,7 @@
 [user]
 	name = Cory Heuschkel
 	email = cory.heuschkel@smartthings.com
-	signingkey = A99F105839A36BC5
+	signingkey = 4DD6FC5B2BFBDB43
 [includeIf "gitdir:~/projects/"]
 	path = .gitconfig-work
 [color]
