@@ -78,6 +78,9 @@ path=(
     # Golang binaries
     "$HOME/.golang/bin"
 
+    # T2 Ubuntu
+    "$HOME/t2"
+
     # Include system paths
     $path
 )

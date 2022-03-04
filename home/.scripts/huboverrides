@@ -1,0 +1,9 @@
+# create overrides directory & its subdirectories
+mkdir -p /hub/data/overrides
+mkdir -p /hub/data/overrides/etc-default
+mkdir -p /hub/data/overrides/hubcore
+
+# create override vars for hubcore
+echo "export HUBCORE_OVERRIDEDIR=/hub/data/overrides/hubcore" > /hub/data/overrides/etc-default/hubcore
+echo "export HUBCORE_DAEMON=/hub/data/overrides/hubcore/hubCore" >> /hub/data/overrides/etc-default/hubcore
+echo "export HUBCORE_MINIDUMP_URL='https://smartthings.sp.backtrace.io:8443/post?format=minidump&token=b9a2585895184c402a6ef7058ca483329f887bbe6f1c9d2c2ff40f2df5964fa9'" >> /hub/data/overrides/etc-default/hubcore
