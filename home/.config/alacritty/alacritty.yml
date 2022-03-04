@@ -5,21 +5,6 @@ colors:
   primary:
     background: '#000000'
 
-font:
-  normal:
-    family: mononoki Emoji
-    style: Regular
-  bold:
-    family: mononoki Emoji
-    style: Bold
-  italic:
-    family: mononoki Emoji
-    style: Italic
-  bold_italic:
-    family: mononoki Emoji
-    style: Bold Italic
-  size: 11
-
 key_bindings:
   - key: F11
     command:
