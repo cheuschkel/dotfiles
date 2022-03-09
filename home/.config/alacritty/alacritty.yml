@@ -46,3 +46,6 @@ hints:
 
 selection:
   save_to_clipboard: true
+
+shell:
+  program: /usr/bin/tmux

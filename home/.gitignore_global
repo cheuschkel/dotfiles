@@ -60,6 +60,7 @@ Session.vim
 
 ### https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 .vscode/*
+*.code-workspace
 # I am changing this to remove everything in .vscode.
 #!.vscode/settings.json
 #!.vscode/tasks.json
