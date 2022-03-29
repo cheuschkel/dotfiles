@@ -108,9 +108,8 @@
 "}}}
 
 " Mappings {{{
-  " Use 'kj' instead of escape
+  " Let 'kj' escape
   inoremap kj <Esc>
-  inoremap <Esc> <nop>
 
   " Add a new line before/after
   nnoremap <silent><C-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
