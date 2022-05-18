@@ -1,7 +1,7 @@
 [user]
 	name = Cory Heuschkel
 	email = cory.heuschkel@smartthings.com
-	signingkey = 4ECD88B1FDA34F25
+	signingkey = 55597C23F5F366C7
 [includeIf "gitdir:~/projects/"]
 	path = .gitconfig-work
 [color]
@@ -29,8 +29,6 @@
 	guitool = meld
 	compactionHeuristic = true
 	renames = copies
-[merge]
-	defaultToUpstream = true
 [color "diff-highlight"]
 	oldNormal = 9 bold
 	oldHighlight = 9 bold 52
@@ -59,3 +57,7 @@
 	unwip = reset HEAD^
 [init]
 	defaultBranch = main
+[merge]
+	  tool = vscode
+[mergetool "vscode"]
+	  cmd = code --wait $MERGED
