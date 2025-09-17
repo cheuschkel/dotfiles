@@ -81,10 +81,37 @@ path=(
     # T2 Ubuntu
     "$HOME/t2"
 
+    # NXP UUU
+    "$HOME/dev/mfgtools/uuu"
+
+    # ADB
+    "$HOME/dev/platform-tools"
+
+    # other scripts
+    "$HOME/dev/smartthings/scripts"
+    
+    # other scripts
+    "$HOME/dev/scripts"
+
+    # imx_usb_loader
+    "$HOME/dev/smartthings/imx_usb_loader"
+
+    "/usr/local/Cellar/awscli/2.15.2/bin"
+
+    # Commander cli
+    "/Applications/Commander-cli.app/Contents/MacOS"
+
     # Include system paths
     $path
 )
 export path
+
+jdk() {
+    version=$1
+    export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+    java -version
+}
+
 
 # The only sane editor option
 command -v nvim >/dev/null 2>&1 && \
@@ -168,3 +195,8 @@ export GOPATH="$HOME/.golang"
 # Uncomment with first line to profile startup
 # zprof
 export GPG_TTY=$(tty)
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH="/usr/local/opt/ansible@9/bin:$PATH"
